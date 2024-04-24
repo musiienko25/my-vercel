@@ -1,10 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import Button from "./Button";
-import Header from "./Header";
-import HeaderImage from "./HeaderImage";
-import HeaderName from "./HeaderName";
-import resume from "../data/resume";
 
 interface Block {
   id: number;
@@ -110,7 +105,7 @@ const Block: React.FC<Block> = ({ id, imageUrl, text, link, description }) => {
 
 const MainBlock: React.FC = () => {
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
       {blocksData.map((block) => (
         <Block
           key={block.id}
