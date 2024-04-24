@@ -4,6 +4,7 @@ import Header from "./Header";
 import HeaderImage from "./HeaderImage";
 import HeaderName from "./HeaderName";
 import resume from "../data/resume";
+
 type WrapperProps = {
   children: any;
 };
