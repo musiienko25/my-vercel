@@ -1,5 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import Button from "./Button";
+import Header from "./Header";
+import HeaderImage from "./HeaderImage";
+import HeaderName from "./HeaderName";
+import resume from "../data/resume";
 
 interface Block {
   id: number;
@@ -79,6 +84,9 @@ const Block: React.FC<Block> = ({ id, imageUrl, text, link, description }) => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "220px",
+          transition: "transform 0.3s, opacity 0.3s", // Додано анімацію для зміни масштабу та прозорості
+          transform: isHovered ? "scale(1.05)" : "scale(1)",
+          opacity: isHovered ? 0.9 : 1,
         }}
       >
         {isHovered && (
