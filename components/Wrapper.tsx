@@ -22,7 +22,7 @@ const Wrapper: FC<WrapperProps> = ({ children }) => {
 
           <div className="leading-normal text-md text-gray-650 -mt-0.5">
             <p>My main technology stack is React, Redux, TypeScript </p>
-            <p>Node.js, VanilaJS, Shopify, Material UI, Cypress</p>
+            <p>Node.js, Firebase, VanilaJS, Shopify, Material UI, Cypress</p>
           </div>
         </Header>
         <MainBlock />
