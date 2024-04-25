@@ -6,7 +6,9 @@ type HeaderProps = {
 
 const Header: FC<HeaderProps> = ({ children }) => {
   return (
-    <header className="flex items-center mb-8 md:mb-11">{children}</header>
+    <header className="flex items-center mb-8 md:mb-11 justify-between">
+      {children}
+    </header>
   );
 };
 

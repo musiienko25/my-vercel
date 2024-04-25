@@ -18,7 +18,7 @@ const blocksData: Block[] = [
       "https://ej2uh7skei8.exactdn.com/wp-content/uploads/2022/02/kids-learning.png?strip=all&lossy=1&quality=92&webp=90&sharp=1&ssl=1",
     text: "Stack of technologies: React, JS, CSS",
     description:
-      "Amplify is an educational platform for elementary and middle grades where teachers and students can interact.",
+      "Amplify is an educational platform for elementary and middle grades",
     link: "https://amplify.com/",
   },
   {
@@ -46,8 +46,7 @@ const blocksData: Block[] = [
     imageUrl:
       "https://www.sparkpaws.com/cdn/shop/files/RED_02_1000x.jpg?v=1698343688",
     text: "Stack of technologies: Shopify, JS, CSS",
-    description:
-      "Сlothing and accessories for animals. Spark Paws is a brand dedicated to providing pet owners with high-quality",
+    description: "Сlothing and accessories for animals",
     link: "https://www.sparkpaws.com/",
   },
   {
@@ -57,7 +56,7 @@ const blocksData: Block[] = [
       "https://images-1.eucerin.com/~/media/eucerin/international/skin-concerns/uneven-skin/eucerin-sc-uneven-skin-hyperpigmentation-in-general-00header.webp?rx=0&ry=60&rw=1440&rh=487&mw=1440&hash=3E34C55381B9BBEC2EC166B98A323B93",
     text: "React, JS, Node.js, Express, PostgreSQL",
     description:
-      "An application is similar to an online store. Eucerin is a producer and main supplier of professional cosmetics.",
+      "Eucerin is a producer and main supplier of professional cosmetics",
     link: "https://www.ua.eucerin.ua/",
   },
   {
@@ -65,8 +64,7 @@ const blocksData: Block[] = [
     title: "Workant",
     imageUrl: "https://workant.io/_next/static/media/main-image.3e04d8f4.png",
     text: "React, Redux, Redux Saga, Node.js, Express",
-    description:
-      "Workant is an all-in-one HR-software solution. Select and utilize modules as and when needed. ",
+    description: "Workant is an all-in-one HR-software solution",
     link: "https://workant.io/",
   },
 ];
