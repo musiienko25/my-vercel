@@ -14,7 +14,7 @@ const Wrapper: FC<WrapperProps> = ({ children }) => {
     <main className="font-firago hyphens-manual">
       <div className="p-6 mx-auto page max-w-3xl print:max-w-letter md:max-w-letter xsm:p-8 sm:p-9 md:p-8 bg-white lg:min-w-[1000px] xl:min-w-[1320px]">
         <Header>
-          <div className="flex  ">
+          <div className="flex mb-10 sm:mb-0 lg:mb-0">
             {" "}
             <HeaderImage src={resume.image} name={resume.name} />
             <HeaderName name={resume.name} title={resume.title} />
