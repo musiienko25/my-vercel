@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Footer from "./Footer";
 
 interface Block {
   id: number;
@@ -127,18 +128,21 @@ const Block: React.FC<Block> = ({
 
 const MainBlock: React.FC = () => {
   return (
-    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
-      {blocksData.map((block) => (
-        <Block
-          key={block.id}
-          id={block.id}
-          imageUrl={block.imageUrl}
-          text={block.text}
-          link={block.link}
-          description={block.description}
-          title={block.title}
-        />
-      ))}
+    <div>
+      {" "}
+      <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
+        {blocksData.map((block) => (
+          <Block
+            key={block.id}
+            id={block.id}
+            imageUrl={block.imageUrl}
+            text={block.text}
+            link={block.link}
+            description={block.description}
+            title={block.title}
+          />
+        ))}
+      </div>
     </div>
   );
 };

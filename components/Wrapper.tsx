@@ -4,6 +4,7 @@ import Header from "./Header";
 import HeaderImage from "./HeaderImage";
 import HeaderName from "./HeaderName";
 import resume from "../data/resume";
+import Footer from "./Footer";
 
 type WrapperProps = {
   children: any;
@@ -27,6 +28,7 @@ const Wrapper: FC<WrapperProps> = ({ children }) => {
         </Header>
         <MainBlock />
       </div>
+      <Footer />
     </main>
   );
 };
